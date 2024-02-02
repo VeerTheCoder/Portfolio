@@ -1,0 +1,17 @@
+.cursor{
+    height: 25px;
+    width: 25px;
+    background-color: var(--saffron);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1000;
+}
+.blur-cursor{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 179, 87, 0.422);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    filter: blur(30px);
+}
